@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragonX</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+    
+    <h1>WELCOME TO DRAGONX</h1>
+    <div>
+        <img src="player.gif" alt="" id="player">
+        
+        <img src="dragon.gif" alt="" id="dragon">
+        
+    </div>
+    <aside id="as1">
+    <h2 id="ss">Player Hp :</h2>
+    <h2 id="hp1">1500</h2>
+    
+</aside>
+
+
+<aside id="as2">
+    <h2 id="ss">Dragon HP :</h2>
+    <h2 id="hp2">5000</h2>
+</aside>
+<aside id="as3">
+<button id="button1" onclick="fight()">fight</button>
+<button id="button2"onclick="help()">heal</button>
+</aside>
+<h1 id="win1" style="color: green;"></h1>
+<h1 id="win2" style="color: rgb(253, 0, 0);"></h1>
+
+<a href="game.html" id="restartlink"><button id="restartbutton">restart</button></a>
+<button id="surrender" onclick="surrender()">surrender</button>
+<img src="" alt="" id="hit">
+</body>
+<script src="game.js"></script>
+</html>
